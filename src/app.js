@@ -16,4 +16,4 @@ try {
   document.getElementById("day").innerText = dayOfTheWeek();
 } catch (err) {}
 
-exports.dayOfTheWeek = dayOfTheWeek;
+export { dayOfTheWeek };
